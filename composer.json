@@ -1,0 +1,16 @@
+{
+    "name": "corepos/lane-plugin-inactive-mem-search",
+    "description": "Lane plugin to search for inactive member accounts",
+    "type": "corepos-lane-plugin",
+    "require": {
+        "corepos/composer-installer": ">=1.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "exclude-from-classmap": ["/*.php", "/gui/", "/noauto/"]
+    },
+    "version": "1.0.0"
+}
